@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.lyceenature.moodlenature"
         versionCode = "20160"
         version   = "3.2.0">
-    <name>Moodle Mobile</name>
+    <name>Moodle Nature</name>
 
     <description>
-        Moodle Mobile official app
+        Application officielle Moodle du LYCEE NATURE
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://www.lyceenature.com" email="oliviermarquez@gmail.com">
+        Olivier Marquez
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -138,7 +138,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="true" />
+         <application android:debuggable="false" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
