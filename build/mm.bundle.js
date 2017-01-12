@@ -47698,6 +47698,7 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
+	"presets" : {"url": "http://moodle.lyceenature.com/login/index.php", "username": ""},
     "siteurl": "http://moodle.lyceenature.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
